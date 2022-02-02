@@ -3,24 +3,6 @@ from math import *
 import matplotlib.pyplot as plt #Y=....
 import numpy as np #[min,max]
 
-#def control():
-#    global D,t
-#    if a.get()!="" and b.get()!="" and c.get()!="":
-#        if float(a.get())==0 and float(b.get())==0 and float(c.get())==0:
-#        elif float(a.get())==0 and float(b.get())!=0 and float(c.get())!=0:
-#    else:
-#        if a.get()=="":
-#            a.configure(bg="lightred")
-#        if b.get()=="":
-#            b.configure(bg="lightred")
-#        if c.get()=="":
-#            c.configure(bg="lightred")
-#        else:
-#            a.configure(bg="lightblue")
-#            b.configure(bg="lightblue")
-#            c.configure(bg="lightblue")
-
-
 x1=0
 x2=0
 D=-1
