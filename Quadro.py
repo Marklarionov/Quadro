@@ -190,7 +190,7 @@ def figura():
 
 win=Tk()
 win.title("Квадратное уравнение")
-win.geometry("900x550")
+win.geometry("900x570")
 f1=Frame(win,width=900,height=500)
 f1.pack(side=TOP)
 f2=Frame(win,width=900,height=500)
@@ -219,7 +219,7 @@ but2=Button(f1,text="График",height=2,width=10,font="Arial 20",bg="Green",
 but2.place(x=730,y=125)
 
 btn_veel=Button(f2,text="Увеличить окно",font="Calibri 26",bg="green",command=veel)
-btn_veel.place(x=400,y=550) 
+btn_veel.pack(side=TOP)
 var=IntVar()
 
 r1=Radiobutton(f2,text="Кит",variable=var,value=1, font="Calibri 26",command=figura)#command=kala
